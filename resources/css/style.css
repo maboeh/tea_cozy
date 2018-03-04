@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0.9;
+}
+
+
+/*---------------------IDs--------------------------*/
+
+#footer {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+
+#footer p {
+    float: left;
+    margin-left: 20px;
+}
+
+#locations {
+    display: flex;
+    background-image: url("./../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#locations h2 {
+    margin: 70px auto 0;
+}
+
+#loc_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+}
+
+#main {
+    top: 62px;
+    position: relative;
+    flex-direction: column;
+}
+
+#mission {
+    display: flex;
+    background-image: url("./../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+}
+
+#mission_content {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#mission_content h2,
+h4 {
+    margin: 10px;
+}
+
+#tea_month {
+    display: flex;
+    width: 1000px;
+    margin: 40px 100px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#tea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#tea img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+#tea_bottom {
+    display: flex;
+    margin-left: 165px;
+}
+
+
+/*---------------CLASSES---------------*/
+
+.header {
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    z-index: 9999;
+    top: 0;
+}
+
+.header img {
+    margin-left: 10px;
+    height: 50px;
+    display: flex;
+}
+
+.loc_min {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    padding: 5px 5px;
+    width: 300px;
+    margin: 40px;
+    opacity: 1;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.nav span a {
+    color: seashell;
+    padding: 10px;
+}
